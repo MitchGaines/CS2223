@@ -42,10 +42,18 @@ Homework Assignment: 1\\
 Name: Jonathan Gaines\\ 
 Date: 3/22/2017\\ --------------------------------------------------------------------------------------------------
 \begin {enumerate}
-\item Insert Answer to Question 1 here 
-\item Insert Answer to Question 2 here 
-\item Insert Answer to Question 3 here 
-\item etc 
+\item Summation Practice
+				\begin {enumerate}[(a)]
+					\item %a
+					\item %b
+					\item %c
+					\item %d
+					\item %e
+					\item %f
+					\item %g
+					\item %h
+				\end {enumerate}
+\item Order of Growth 
 \end {enumerate}
 
 \end{document}
