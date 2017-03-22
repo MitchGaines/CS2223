@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.3.21)  22 MAR 2017 15:24
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.3.21)  22 MAR 2017 15:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -208,26 +208,7 @@ LaTeX Font Info:    Try loading font information for U+lasy on input line 47.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
-)
-! Display math should end with $$.
-<to be read again> 
-                    
-l.47 					\item $$\sum_{k=3}^{n+1} 1$ 
-                                        %a
-? 
-! Display math should end with $$.
-<to be read again> 
-                    
-l.48 					\item $$\sum_{i=1}^{100} (4+3i)$ 
-                                             %b
-? 
-! Display math should end with $$.
-<to be read again> 
-                    
-l.49 					\item $$\sum_{k=3}^{n+1} 1$ 
-                                        %c
-? 
-[1
+) [1
 Non-PDF special ignored!
 Non-PDF special ignored!
 
@@ -257,7 +238,7 @@ Non-PDF special ignored!] (./hwk1.aux) )
 Here is how much of TeX's memory you used:
  2025 strings out of 495028
  26891 string characters out of 6181497
- 75399 words of memory out of 5000000
+ 76399 words of memory out of 5000000
  5207 multiletter control sequences out of 15000+600000
  8603 words of font info for 35 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -267,11 +248,12 @@ pe1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
-8.pfb>
-Output written on hwk1.pdf (1 page, 46884 bytes).
+8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on hwk1.pdf (1 page, 63173 bytes).
 PDF statistics:
- 28 PDF objects out of 1000 (max. 8388607)
- 19 compressed objects within 1 object stream
+ 36 PDF objects out of 1000 (max. 8388607)
+ 25 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
