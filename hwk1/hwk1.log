@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.3.21)  22 MAR 2017 16:59
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.3.21)  22 MAR 2017 17:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -210,132 +210,21 @@ LaTeX Font Info:    Try loading font information for U+lasy on input line 47.
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 
-! LaTeX Error: Bad math environment delimiter.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.50 									\begin{math}
-                          
-? 
-
 ! LaTeX Error: Illegal character in array arg.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.52 											\begin{array}{2}
-                                
+l.51 										\begin{array}{2}
+                               
 ? 
 ! Missing \right. inserted.
 <inserted text> 
                 \right .
-l.57 									\end{math}
-                        
+l.56 ...lies 100(7 + \frac{3(100-1)}{2}) = 15550 $
+                                                  $
 ? 
-! Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.57 									\end{math}
-                        
-? 
-! Display math should end with $$.
-<to be read again> 
-                   \def 
-l.57 									\end{math}
-                        
-? 
-
-! LaTeX Error: \begin{enumerate} on input line 46 ended by \end{math}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.57 									\end{math}
-                        
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.58 									\implies
-                       100(7 + \frac{3(100-1)}{2}) = 15550 $$
-? 
-
-! LaTeX Error: Command \item invalid in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.59 					\item
-                $$\sum_{i=2}^{200} (i-3)^{2}$$
-? 
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.59 					\item $
-                 $\sum_{i=2}^{200} (i-3)^{2}$$
-? 
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.59 					\item $
-                 $\sum_{i=2}^{200} (i-3)^{2}$$
-? 
-
-! LaTeX Error: Command \item invalid in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.60 					\item
-                $$\sum_{i=10}^{80} (i^{3} + i^{2})$$
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.60 					\item $
-                 $\sum_{i=10}^{80} (i^{3} + i^{2})$$
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.60 					\item $
-                 $\sum_{i=10}^{80} (i^{3} + i^{2})$$
-? 
-! Extra }, or forgotten \endgroup.
-\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.60 					\item $
-                 $\sum_{i=10}^{80} (i^{3} + i^{2})$$
-? 
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.69 \item O
-            rder of Growth
-? 
-
-Underfull \hbox (badness 10000) detected at line 69
-[][]
- []
-
 [1
 Non-PDF special ignored!
 Non-PDF special ignored!
@@ -360,26 +249,9 @@ Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!
+Non-PDF special ignored!] [2
 Non-PDF special ignored!
 Non-PDF special ignored!
-Non-PDF special ignored!]
-
-! LaTeX Error: \begin{document} ended by \end{enumerate}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.74 \end {enumerate}
-                     
-? 
-! Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.74 \end {enumerate}
-                     
-? 
-[2
 Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!
@@ -395,7 +267,7 @@ Here is how much of TeX's memory you used:
  5207 multiletter control sequences out of 15000+600000
  8603 words of font info for 35 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 38i,7n,24p,230b,247s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,7n,24p,230b,267s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
@@ -403,7 +275,7 @@ msfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
 8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on hwk1.pdf (2 pages, 66317 bytes).
+Output written on hwk1.pdf (2 pages, 65885 bytes).
 PDF statistics:
  39 PDF objects out of 1000 (max. 8388607)
  27 compressed objects within 1 object stream
