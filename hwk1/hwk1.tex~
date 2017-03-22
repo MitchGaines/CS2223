@@ -44,19 +44,23 @@ Date: 3/22/2017\\ --------------------------------------------------------------
 \begin {enumerate}
 \item Summation Practice
 				\begin {enumerate}[(a)]
-					\item $$\sum_{k=3}^{n+1} 1$$   						%a
-					\item $$\sum_{i=1}^{100} (4+3i)$$  				%b
-					\item $$\sum_{i=2}^{200} (i-3)^{2}$$   		%c
-					\item $$\sum_{i=10}^{80} (i^{3} + i^{2})$$%d
-					\item $$\sum_{j=0}^{n-1} (j+1)$$						%e
-					\item Create a summation for the following sequence: 2+4+8+16+32+64 %f
+					\item $$\sum_{k=3}^{n+1} 1$$   						
+					\item $$\sum_{i=1}^{100} (4+3i)$$  				
+					\item $$\sum_{i=2}^{200} (i-3)^{2}$$   		
+					\item $$\sum_{i=10}^{80} (i^{3} + i^{2})$$
+					\item $$\sum_{j=0}^{n-1} (j+1)$$					
+					\item Create a summation for the following sequence: 2+4+8+16+32+64
 								$$\sum_{j=0}^{n-1} (j+1)$$	
-					\item Create a summation for the following sequence: 2+6+18+54+162 %g
+					\item Create a summation for the following sequence: 2+6+18+54+162 
 								$$\sum_{j=0}^{n-1} (j+1)$$		
-				\item Create a summation for the following sequence: (-4)+(-1)+2+5+8+11+14%h
+				\item Create a summation for the following sequence: (-4)+(-1)+2+5+8+11+14
 								$$\sum_{j=0}^{n-1} (j+1)$$	
 				\end {enumerate}
-\item Order of Growth 
+\item Order of Growth
+				\begin {enumerate}[(a)]
+					\item $$\sum_{i=2}^{n-1} lgi^{2}$$ 
+					\item $$\sum_{i=0}^{n-1} \sum_{j=0}^{i-1} (i+j) $$
+				\end {enumerate}
 \end {enumerate}
 
 \end{document}
