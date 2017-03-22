@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.3.21)  22 MAR 2017 19:13
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.3.21)  22 MAR 2017 19:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -225,85 +225,11 @@ l.51 										\begin{array}{2}
 l.56 ...lies 100(7 + \frac{3(100-1)}{2}) = 15550 $
                                                   $
 ? 
-! Display math should end with $$.
-<to be read again> 
-                   {
-l.64 ...{3} - \sum_{i=1}^{9} i^{3} \Big) +  $\Big(
-                                                   \sum_{i=1}^{80} i^{2} - \...
-
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.64 ... \sum_{i=1}^{9} i^{3} \Big) +  $\Big( \sum
-                                                  _{i=1}^{80} i^{2} - \sum_{...
-
-? 
-
-! LaTeX Error: Command \item invalid in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.65 					\item
-                $$\sum_{j=0}^{n-1} (j+1)$$
-? 
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.65 					\item $
-                 $\sum_{j=0}^{n-1} (j+1)$$
-? 
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.65 					\item $
-                 $\sum_{j=0}^{n-1} (j+1)$$
-? 
-
-! LaTeX Error: Command \item invalid in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.66 					\item
-                Create a summation for the following sequence: 2+4+8+16+32+64
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.66 					\item C
-                 reate a summation for the following sequence: 2+4+8+16+32+64
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.66 					\item C
-                 reate a summation for the following sequence: 2+4+8+16+32+64
-? 
-! Extra }, or forgotten \endgroup.
-\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.66 					\item C
-                 reate a summation for the following sequence: 2+4+8+16+32+64
-? 
 [1
 Non-PDF special ignored!
 Non-PDF special ignored!
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
-Non-PDF special ignored!
-Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!
@@ -331,6 +257,8 @@ Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
 Non-PDF special ignored!] (./hwk1.aux) ) 
 Here is how much of TeX's memory you used:
  2025 strings out of 495028
@@ -339,7 +267,7 @@ Here is how much of TeX's memory you used:
  5207 multiletter control sequences out of 15000+600000
  8603 words of font info for 35 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 38i,7n,24p,230b,261s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,7n,24p,230b,263s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
@@ -347,7 +275,7 @@ msfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
 8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on hwk1.pdf (2 pages, 67892 bytes).
+Output written on hwk1.pdf (2 pages, 67275 bytes).
 PDF statistics:
  39 PDF objects out of 1000 (max. 8388607)
  27 compressed objects within 1 object stream
