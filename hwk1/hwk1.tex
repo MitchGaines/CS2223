@@ -53,6 +53,7 @@ Date: 3/22/2017\\ --------------------------------------------------------------
 											n = 100\\
 											d = 3
 										\end{array}
+									\right
 									\implies 100(7 + \frac{3(100-1)}{2}) = 15550 $$
 
 					\item $$\sum_{i=1}^{200} (i-3)^{2} = \sum_{i=1}^{200}(i^{2}-6i+9)$$
@@ -84,6 +85,14 @@ Date: 3/22/2017\\ --------------------------------------------------------------
 									$$= 2(\sum_{i=2}^{n-1} lg(i)) \implies \Theta(2(\sum_{i=2}^{n-1} lg(i))) = \Theta(lgi) $$
 					\item $$\sum_{i=0}^{n-1} \sum_{j=0}^{i-1} (i+j) $$
 									$$= \sum_{i=0}^{n-1} \sum_{j=0}^{i} (2i + j - 1) = \frac{1}{2}(\sum_{i=0}^{n-1} n^{2} + ...) \implies \Theta(n^3)$$
+				\end {enumerate}
+\item Time Efficiency Analysis
+				\begin {enumerate}[(a)]
+					\item This algorithm finds if neighboring values in the array are unique. 
+					\item $$\sum_{i=0}^{n-2} \sum_{j=i+1}^{n-1} 1 = \sum_{i=0}^{n-2} (-i + n -1)$$
+									$$= \frac{n(n-1)}{2} $$
+					\item polynomial: $O(n^{2})$
+
 				\end {enumerate}
 \end {enumerate}
 
