@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.3.21)  26 MAR 2017 22:29
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.3.21)  26 MAR 2017 22:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -195,32 +195,16 @@ Package etexcmds Info: Could not find \expanded.
 Package epstopdf Warning: Drivers other than `pdftex.def' are not supported.
 
 )
-
-! Package amsmath Error: \begin{aligned} allowed only in math mode.
-
-See the amsmath package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.49 		$
-        $EXAMPLE\Rightarrow
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.49 		$
-        $EXAMPLE\Rightarrow
-? 
-LaTeX Font Info:    Try loading font information for U+msa on input line 49.
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+LaTeX Font Info:    Try loading font information for U+msa on input line 48.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 49.
+LaTeX Font Info:    Try loading font information for U+msb on input line 48.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+lasy on input line 49.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 48.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
@@ -228,24 +212,36 @@ File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 ! Missing } inserted.
 <inserted text> 
                 }
-l.49 		$
-        $EXAMPLE\Rightarrow
+l.55 			\end{align*}
+                    
 ? 
 ! Missing { inserted.
 <inserted text> 
                 {
-l.55 			\end{aligned}
-                     
+l.55 			\end{align*}
+                    
 ? 
-! Missing $ inserted.
+! Missing } inserted.
 <inserted text> 
-                $
-l.55 			\end{aligned}
-                     
+                }
+l.55 			\end{align*}
+                    
+? 
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.55 			\end{align*}
+                    
+? 
+! Missing { inserted.
+<inserted text> 
+                {
+l.55 			\end{align*}
+                    
 ? 
 
-Overfull \hbox (82.60051pt too wide) in paragraph at lines 49--57
-[]$[]$ 
+Overfull \hbox (32.33714pt too wide) in paragraph at lines 55--55
+[] 
  []
 
 ! Missing $ inserted.
@@ -290,17 +286,17 @@ Non-PDF special ignored!] (./hwk2.aux) )
 Here is how much of TeX's memory you used:
  2025 strings out of 495028
  26891 string characters out of 6181497
- 75399 words of memory out of 5000000
+ 76399 words of memory out of 5000000
  5207 multiletter control sequences out of 15000+600000
  8603 words of font info for 35 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 38i,7n,24p,230b,241s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,8n,24p,230b,258s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmsy10.pfb>
-Output written on hwk2.pdf (1 page, 40422 bytes).
+Output written on hwk2.pdf (1 page, 40421 bytes).
 PDF statistics:
  24 PDF objects out of 1000 (max. 8388607)
  16 compressed objects within 1 object stream
