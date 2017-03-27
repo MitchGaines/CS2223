@@ -45,14 +45,14 @@ Date: 3/29/2017\\ --------------------------------------------------------------
 \item X Sorting Algorithm
 	\begin {enumerate}[(a)]
 		\item
-			\begin{aligned}
+			\begin{align*}
 		$$EXAMPLE\Rightarrow 
 			AXEMPLE\Rightarrow	
 			AEXMPLE\Rightarrow
 			AEEMPLX\Rightarrow
 			AEELPMX\Rightarrow
 			AEELMPX $$		
-			\end{aligned}
+			\end{align*}
 		\item
 		\item 
 	\end {enumerate}
