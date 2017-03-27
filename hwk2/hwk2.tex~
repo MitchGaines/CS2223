@@ -45,12 +45,12 @@ Date: 3/29/2017\\ --------------------------------------------------------------
 \item X Sorting Algorithm
 	\begin {enumerate}[(a)]
 		\item part 1
-			EXAMPLE\Rightarrow 
+		$$EXAMPLE\Rightarrow 
 			AXEMPLE\Rightarrow	
 			AEXMPLE\Rightarrow
 			AEEMPLX\Rightarrow
 			AEELPMX\Rightarrow
-			AEELMPX 		
+			AEELMPX $$		
 		\item part 2
 		\item part 3
 	\end {enumerate}
