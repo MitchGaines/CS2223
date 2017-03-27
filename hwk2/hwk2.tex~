@@ -48,8 +48,8 @@ Date: 3/29/2017\\ --------------------------------------------------------------
 		$$EXAMPLE\Rightarrow 
 			AXEMPLE\Rightarrow	
 			AEXMPLE\Rightarrow
-			AEEMPLX\Rightarrow \linebreak[4]
-			AEELPMX\Rightarrow
+			AEEMPLX\Rightarrow$$ 
+		$$AEELPMX\Rightarrow
 			AEELMPX $$		
 		\item
 		\item 
