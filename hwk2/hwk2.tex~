@@ -33,9 +33,11 @@
 %        Collaborators: #2
 	}
 } 
+
 \bigskip
 }
 
+\newcommand\tab[1][1cm]{\hspace*{#1}}
 
 \begin{document}
 Homework Assignment: 2\\ 
