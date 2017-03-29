@@ -57,7 +57,7 @@ Date: 3/29/2017\\ --------------------------------------------------------------
 			Time Efficiency: $O(n^{2})$ \\
 			Space Efficiency: 
 		\item 
-			Stability in an algorithm refers to the ordering of elements of same values in the final sorted list. A stable algorithm will keep elements of the same value in the same order as they appeared in the unordered list. This algorithm is stable because the only circumstance where elements of a list are swapped is if a value is distinctly less than the other value, such as $A < Z$. Because a $\leq$ is not used, elements of same values will not be swapped.
+			Stability in an algorithm refers to the ordering of elements of same values in the final sorted list. A stable algorithm will keep elements of the same value in the same order as they appeared in the unordered list. This algorithm is stable because the only circumstance where elements of a list are swapped is if a value is distinctly less than the other value, such as $A < Z$. Because a $\leq$ is not used, elements of same values will not be swapped. \par
 	\end {enumerate}
 \item Bubble Sort
 	\begin {enumerate}[(a)]
@@ -71,6 +71,7 @@ Date: 3/29/2017\\ --------------------------------------------------------------
 		\item
 
 		\item
+			This sort is stable because the comparison is testing to see if $alist[x] > alist[x+1]$ rather than $list[x] \geq list[x+1]$. Thus, a swap is only made if element x is larger than element x+1. \par 
 	\end {enumerate}
 \item Show that $n^{2}$ \in $O(n^{2}+10n), n \geq 0$
 
