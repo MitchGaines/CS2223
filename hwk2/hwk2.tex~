@@ -73,8 +73,11 @@ Date: 3/29/2017\\ --------------------------------------------------------------
 		\item
 			This sort is stable because the comparison is testing to see if $alist[x] > alist[x+1]$ rather than $list[x] \geq list[x+1]$. Thus, a swap is only made if element x is larger than element x+1. \par 
 	\end {enumerate}
-\item Show that $n^{2}$ \in $O(n^{2}+10n), n \geq 0$
-
+\item Show that $n^{2} \in O(n^{2}+10n), n \geq 0$ \\ \\
+	\tab Choose $k=1$ \\ \\
+	\tab because $n\geq0$, then $\frac{f(n)}{g(n)} = \frac{n^{2}}{n^{2}+10n} > \frac{n^{2}}{n^{2}+10n^{2}} = \frac{1}{10}$ \\ \\
+	\tab choose $c=\frac{1}{10}$. Note that $\frac{1}{10n} > \frac{1}{10n^{2}}$\\ \\
+	\tab Thus, $n^{2} \in O(n^{2}+10n)$ because $n^{2} > \frac{n^{2}}{10}$ 
 \item Show that $n \not\in \Omega(n^{2})$ \\ \\
 	\tab Choose $k=1$ \\ \\
 	\tab Assuming $n > 1$, then \\ \\
