@@ -5,8 +5,7 @@ def bubbleSort(alist):
                 temp = alist[i]
                 alist[i] = alist[i+1]
                 alist[i+1] = temp
-
-        print(*alist, sep=' ')
+            print(*alist, sep=' ')
 
 alist = ["E", "X", "A", "M", "P", "L", "E"]
 bubbleSort(alist)

@@ -55,7 +55,7 @@ Date: 3/29/2017\\ --------------------------------------------------------------
 			AEELMPX $$		
 		\item
 			Time Efficiency: $O(n^{2})$ \\
-			Space Efficiency: 
+			Space Efficiency: $O(1)$ 
 		\item 
 			Stability in an algorithm refers to the ordering of elements of same values in the final sorted list. A stable algorithm will keep elements of the same value in the same order as they appeared in the unordered list. This algorithm is stable because the only circumstance where elements of a list are swapped is if a value is distinctly less than the other value, such as $A < Z$. Because a $\leq$ is not used, elements of same values will not be swapped. \par
 	\end {enumerate}
