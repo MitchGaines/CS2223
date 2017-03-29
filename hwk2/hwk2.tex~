@@ -52,6 +52,7 @@ Date: 3/29/2017\\ --------------------------------------------------------------
 		  AEELPMX\Rightarrow
 			AEELMPX $$		
 		\item
+			Time Efficiency: $O(n^{2})$
 		\item 
 	\end {enumerate}
 \item Bubble Sort
