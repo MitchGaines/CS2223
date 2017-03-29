@@ -53,6 +53,7 @@ Date: 3/29/2017\\ --------------------------------------------------------------
 			AEELMPX $$		
 		\item
 			Time Efficiency: $O(n^{2})$
+			Space Efficiency: 
 		\item 
 	\end {enumerate}
 \item Bubble Sort
@@ -70,7 +71,7 @@ Date: 3/29/2017\\ --------------------------------------------------------------
 \item Show that $n^{2}$ \in $O(n^{2}+10n), n \geq 0$
 
 \item Show that $n \not\in \Omega(n^{2})$
-
+	
 \end {enumerate}
 
 \end{document}
