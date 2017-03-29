@@ -57,11 +57,33 @@ Date: 3/29/2017\\ --------------------------------------------------------------
 			Time Efficiency: $O(n^{2})$ \\
 			Space Efficiency: $O(1)$ 
 		\item 
-						Stability in an algorithm refers to the ordering of elements of same values in the final sorted list. A stable algorithm will keep elements of the same value in the same order as they appeared in the unordered list. This algorithm is not stable when givent the list [2, 2, 1], the first 2 element is swapped with 1 resulting in [1, 2, 2] and the original order of the equal elements is now changed. \par
+						Stability in an algorithm refers to the ordering of elements of same values in the final sorted list. A stable algorithm will keep elements of the same value in the same order as they appeared in the unordered list. This algorithm is not stable. This is shown when givent the list [2, 2, 1]; the first 2 element is swapped with 1 resulting in [1, 2, 2] and the original order of the equal elements is now changed. \par
 	\end {enumerate}
 \item Bubble Sort
 	\begin {enumerate}[(a)]
 		\item
+		$$EXAMPLE\Rightarrow
+			EAXMPLE\Rightarrow
+			EAMXPLE\Rightarrow
+			EAMPXLE$$ $$\Rightarrow
+			EAMPLXE\Rightarrow
+			EAMPLEX\Rightarrow
+			AEMPLEX\Rightarrow
+			AEMPLEX$$ $$\Rightarrow
+			AEMPLEX\Rightarrow
+			AEMLPEX\Rightarrow
+			AEMLEPX\Rightarrow
+			AEMLEPX$$ $$\Rightarrow
+			AEMLEPX\Rightarrow
+			AELMEPX\Rightarrow
+			AELEMPX\Rightarrow
+			AELEMPX$$ $$\Rightarrow
+			AELEMPX\Rightarrow
+			AEELMPX\Rightarrow
+			AEELMPX\Rightarrow
+			AEELMPX$$ $$\Rightarrow
+			AEELMPX\Rightarrow
+		$$
 		\item
 			Bubble sort works by progressively swapping larger elements with smaller elements to the right. If no swaps occur during the pass through the array, then the list is sorted. \par
 		\item
@@ -73,7 +95,8 @@ Date: 3/29/2017\\ --------------------------------------------------------------
 	\tab because this holds true for all $c \geq 1$, $n^{2} \in O(n^{2}+10n)$
 \item Show that $n \not\in \Omega(n^{2})$ \\ \\
 	\tab Choose $c=1$ \\ \\
-	\tab Because $n \not\geq n^{2}$, $n \not\in \Omega(n^{2})$ for all $c \geq 1$
+	\tab Because $n < n^{2}$, while $n>0$ \\ \\
+	$n \not\in \Omega(n^{2})$
 \end {enumerate}
 
 \end{document}
