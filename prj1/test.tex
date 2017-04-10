@@ -1,5 +1,6 @@
-\documentclass{standalone}
+\documentclass[tikz]{standalone}
 \usepackage{pgfplots}
+\pgfplotstableread[col sep = comma]{data.csv}\mydata
 \begin{document}
 \begin{tikzpicture}
   \begin{axis}[ 
