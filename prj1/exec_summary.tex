@@ -1,4 +1,4 @@
-\documentclass[12pt, tikz]{article}
+\documentclass{standalone}
 
 \usepackage[dvips]{graphics,color} 
 \usepackage{amsfonts} 
@@ -6,9 +6,9 @@
 \usepackage{amsmath} 
 \usepackage{latexsym} 
 \usepackage{enumerate} 
-\usepackage{pdfplots}
-\pdfplotsset{compat=1.10}
-\pdfplotstableread[col sep = comma]{data.csv}\mydata
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.10}
+\pgfplotstableread[col sep = comma]{data.csv}\mydata
 \setlength{\parskip}{1pc} 
 \setlength{\parindent}{0pt} 
 \setlength{\topmargin}{-3pc} 
