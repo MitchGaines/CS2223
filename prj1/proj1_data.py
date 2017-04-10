@@ -68,19 +68,22 @@ def run_algs(size):
     out.writerow(row_vals)
 
 column_names = ["Set Size", "DC", "BF"]
-out = csv.writer(open("data.csv", "w"), delimiter=',', quoting=csv.QUOTE_ALL)
-'out.writerow(column_names)'
-curr_size = 10
+datafile = open("data.csv", "w")
+out = csv.writer(datafile, delimiter=',', quoting=csv.QUOTE_ALL)
+curr_size = 0
+counter = 0
 while curr_size <= 100000:      
-    run_algs(curr_size)
-    if(curr_size < 1000):
-        curr_size+=10
-    elif(curr_size < 10000):
-        curr_size+=100
-    elif(curr_size < 100000):
+    if counter % 20 == 0:
+        datafile.flush
+    counter += 1
+    if(curr_size < 10000):
         curr_size+=1000
+    elif(curr_size < 20000):
+        curr_size+=5000
+    elif(curr_size < 100000):
+        curr_size+=10000
     else:
         print("Overflow of dataset occured")
+    run_algs(curr_size)
 
-
-
+datafile.close()
