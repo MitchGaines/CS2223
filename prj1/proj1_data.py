@@ -1,19 +1,7 @@
 import time
 import sys
+import csv
 from random import *
-
-sm_min = 1
-sm_max = 1000
-md_min = sm_max+1
-md_max = 100000
-lg_min = md_max+1
-lg_max = 10000000
-
-print("----------------------------------------")
-print("CS2223 Project 1 | Jonathan Gaines")
-print("\n1 - Small Set (" + str(sm_min)+ " - " + str(sm_max) + ")")
-print("2 - Medium Set (" + str(md_min) + " - " + str(md_max) + ")")  
-print("3 - Large Set (" + str(lg_min) + " - " + str(lg_max) + ")")
 
 def bubblesort(alist):
     for passnum in range(len(alist)-1, 0, -1):
@@ -62,35 +50,37 @@ def effDC(dataset):
     quicksort(dataset)
     end = time.time()
     print("Divide & Conquer: " + str(end-start))
+    return end-start
 
 def effBF(dataset):
     start = time.time()
     bubblesort(dataset)
     end = time.time()
     print("Brute Force: " + str(end-start))
+    return end-start
 
-
-def run_algs(setVal):
-    if int(setVal) == 1:
-        sm_val = randint(sm_min, sm_max)
-        alist = gen_rand_list(sm_val)
-    elif int(setVal) == 2:
-        md_val = randint(md_min, md_max)
-        alist = gen_rand_list(md_val)
-    elif int(setVal) == 3:
-        lg_val = randint(lg_min, lg_max)
-        alist = gen_rand_list(lg_val)
-    
-    effDC(alist)
-    effBF(alist)
+def run_algs(size):
+    alist = gen_rand_list(size)
+    dc_val = effDC(alist)
+    bf_val = effBF(alist)
     print("***********************************")
+    row_vals = [size, dc_val, bf_val]
+    out.writerow(row_vals)
 
-setSize = 0
-while int(setSize) != -1:
-   
-    print("\nEnter 1, 2, 3, or -1 to quit")
-    setSize = input("Choose a set size: ")
-    
-    if int(setSize) != -1: 
-        run_algs(setSize)
+column_names = ["Set Size", "DC", "BF"]
+out = csv.writer(open("data.csv", "w"), delimiter=',', quoting=csv.QUOTE_ALL)
+'out.writerow(column_names)'
+curr_size = 10
+while curr_size <= 100000:      
+    run_algs(curr_size)
+    if(curr_size < 1000):
+        curr_size+=10
+    elif(curr_size < 10000):
+        curr_size+=100
+    elif(curr_size < 100000):
+        curr_size+=1000
+    else:
+        print("Overflow of dataset occured")
+
+
 
