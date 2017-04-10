@@ -1,16 +1,5 @@
-
-% homework template % 
-%
-% NOTE: 
-% Be sure to define your name with the \name command 
-% sure to use the \answer command for each of your answers 
-%   (first argument: problem name 
-%   second argument: collaborators (write 'none' if you solved it alone)) 
 \documentclass[12pt]{article}
-
-%\newcommand{\name}{ INSERT NAME HERE} 
-%\newcommand{\pcroblemset}{ Homework X }
-%\pagestyle{headings} 
+\documentclass[tikz]{standalone}
 \usepackage[dvips]{graphics,color} 
 \usepackage{amsfonts} 
 \usepackage{amssymb} 
@@ -27,7 +16,7 @@
 
 \newcommand{\answer}[2]{ \newpage \noindent \framebox{
 	\vbox{
-		Homework \hfill {\bf \problemset}
+		Executive Summary\hfill {\bf \problemset}
 % 		\hfill \# #1 \\
 			\name \hfill \today \\ 
 %        Collaborators: #2
@@ -38,64 +27,11 @@
 
 
 \begin{document}
-Homework Assignment: 1\\ 
+Executive Summary\\ 
 Name: Jonathan Gaines\\ 
-Date: 3/22/2017\\ --------------------------------------------------------------------------------------------------
-\begin {enumerate}
-\item Summation Practice
-				\begin {enumerate}[(a)]
-					\item $$\sum_{k=3}^{n+1} 1 = n-1 $$
-					\item $$\sum_{i=1}^{100} (4+3i)  $$
-								$$n(a_1 + \frac{d(n-1)}{2})   
-									\left\{
-										\begin{array}{2}
-											a_1 = 7\\
-											n = 100\\
-											d = 3
-										\end{array}
-									\right
-									\implies 100(7 + \frac{3(100-1)}{2}) = 15550 $$
+Date: 4/12/2017\\ --------------------------------------------------------------------------------------------------
 
-					\item $$\sum_{i=1}^{200} (i-3)^{2} = \sum_{i=1}^{200}(i^{2}-6i+9)$$
-								$$\sum_{i=1}^{200} i^{2} - 6(\sum_{i=1}^{200} i) + \sum_{i=1}^{200} 9 $$
-							  $$= \frac{200(200+1)(400+1)}{6} - 6 \left\{ \frac{200(200+1)}{2} \right\} + 9(200) $$
-								$$= 2567900 $$
 
-					\item $$\sum_{i=10}^{80} (i^{3} + i^{2}) = \sum_{i=10}^{80} i^{3} + \sum_{i=10}^{80} i^{2} $$
-								$$(\sum_{i=1}^{80} i^{3} - \sum_{i=1}^{9} i^{3})+(\sum_{i=1}^{80} i^{2} - \sum_{i=1}^{9} i^{2})$$
-								$$= (\frac{80^{2}(80+1)^{2}}{4} - (\frac{9^{2}(9+1)^{2}}{4}) 
-								+ (\frac{80(80+1)(160+1)}{6} - \frac{9(9+1)(18+1)}{6}) $$
-								$$= 10669170 $$
 
-					\item $$\sum_{j=0}^{n-1} j(j+1) = \sum_{j=0}^{n-1} j^{2} 
-									+ 2(\sum_{j=0}^{n-1} j) 
-									+ \sum_{j=0}^{n-1} 1 $$
-									$$= \frac{n(n-1)(2n-1)}{6} + n(n-1) + (n-1) $$
-
-					\item Create a summation for the following sequence: 2+4+8+16+32+64
-								$$\sum_{i=1}^{6} 2^{i}$$	
-					\item Create a summation for the following sequence: 2+6+18+54+162 
-								$$\sum_{i=1}^{5} (3^{i} - 3^{(i-1)})$$		
-				\item Create a summation for the following sequence: (-4)+(-1)+2+5+8+11+14
-								$$\sum_{j=1}^{7} (3i - 7) $$	
-				\end {enumerate}
-\item Order of Growth
-				\begin {enumerate}[(a)]
-					\item $$\sum_{i=2}^{n-1} lgi^{2}$$ 
-									$$= 2(\sum_{i=2}^{n-1} lg(i)) \implies \Theta(2(\sum_{i=2}^{n-1} lg(i))) = \Theta(lgi) $$
-					\item $$\sum_{i=0}^{n-1} \sum_{j=0}^{i-1} (i+j) $$
-									$$= \sum_{i=0}^{n-1} \sum_{j=0}^{i} (2i + j - 1) = \frac{1}{2}(\sum_{i=0}^{n-1} n^{2} + ...) \implies \Theta(n^3)$$
-				\end {enumerate}
-\item Time Efficiency Analysis
-				\begin {enumerate}[(a)]
-					\item This algorithm finds if neighboring values in the array are unique. 
-					\item $$\sum_{i=0}^{n-2} \sum_{j=i+1}^{n-1} 1 = \sum_{i=0}^{n-2} (-i + n -1)$$
-									$$= \frac{n(n-1)}{2} $$
-					\item polynomial: $O(n^{2})$
-					\item This algorithm calculates the summation of $i^{2}$ iterations of the loop to value n.
-					\item $$\sum_{i=1}^{n} i^{2} = \frac{n(n+1)(2n+1)}{6}$$
-					\item polynomial: $O(n^{3})$
-				\end {enumerate}
-\end {enumerate}
 
 \end{document}
