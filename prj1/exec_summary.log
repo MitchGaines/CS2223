@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.3.21)  10 APR 2017 13:59
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.3.21)  10 APR 2017 14:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -128,24 +128,55 @@ Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
 \@enLab=\toks20
 )
 
+! LaTeX Error: File `pdfplots.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: 
+! Undefined control sequence.
+<recently read> \pdfplotsset 
+                             
+l.10 \pdfplotsset
+                 {compat=1.10}
+? 
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 \pdfplotsset{c
+                   ompat=1.10}
+? 
+! Undefined control sequence.
+l.11 \pdfplotstableread
+                       [col sep = comma]{data.csv}\mydata
+? 
+! Undefined control sequence.
+l.11 ...ableread[col sep = comma]{data.csv}\mydata
+                                                  
+? 
+
 LaTeX Warning: Unused global option(s):
     [tikz].
 
 (./exec_summary.aux)
 \openout1 = `exec_summary.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
@@ -199,7 +230,62 @@ Package etexcmds Info: Could not find \expanded.
 
 Package epstopdf Warning: Drivers other than `pdftex.def' are not supported.
 
-) [1
+)
+
+! LaTeX Error: Environment tikzpicture undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.26 \begin{tikzpicture}
+                        
+? 
+
+! LaTeX Error: Environment axis undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 				\begin{axis}
+                     [
+? 
+! Undefined control sequence.
+l.32 								\addplot
+                      table[x index={0}, y index{2}]
+? 
+! Undefined control sequence.
+l.33 								\legend
+                    {Actual}
+? 
+
+! LaTeX Error: \begin{document} ended by \end{axis}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 				\end{axis}
+                   
+? 
+
+! LaTeX Error: \begin{document} ended by \end{tikzpicture}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.35 \end{tikzpicture}
+                      
+? 
+
+Overfull \hbox (6.50673pt too wide) in paragraph at lines 23--36
+\OT1/cmr/m/n/12 ---------------------------------------------------------------
+--------------------------------  [ leg-end pos = north
+ []
+
+[1
 Non-PDF special ignored!
 Non-PDF special ignored!
 
@@ -207,16 +293,16 @@ Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!] (./exec_summary.aux) ) 
 Here is how much of TeX's memory you used:
- 1968 strings out of 495028
- 26019 string characters out of 6181497
- 73375 words of memory out of 5000000
- 5175 multiletter control sequences out of 15000+600000
+ 1977 strings out of 495028
+ 26123 string characters out of 6181497
+ 74410 words of memory out of 5000000
+ 5183 multiletter control sequences out of 15000+600000
  3938 words of font info for 15 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  38i,5n,24p,238b,117s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on exec_summary.pdf (1 page, 13618 bytes).
+Output written on exec_summary.pdf (1 page, 15888 bytes).
 PDF statistics:
  12 PDF objects out of 1000 (max. 8388607)
  7 compressed objects within 1 object stream
