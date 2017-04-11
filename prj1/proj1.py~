@@ -5,9 +5,9 @@ from random import *
 sm_min = 1
 sm_max = 1000
 md_min = sm_max+1
-md_max = 15000
+md_max = 100000
 lg_min = md_max+1
-lg_max = 100000
+lg_max = 1000000
 
 print("----------------------------------------")
 print("CS2223 Project 1 | Jonathan Gaines")
