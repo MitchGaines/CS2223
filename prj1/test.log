@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.3.21)  10 APR 2017 22:03
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.3.21)  10 APR 2017 22:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -543,7 +543,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.12 ...le[x index = {0}, y index = {2}]{\mydata};
+l.12 ... table[x index={0}, y index={2}]{\mydata};
                                                   
 ? 
 
@@ -555,7 +555,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.12 ...le[x index = {0}, y index = {2}]{\mydata};
+l.12 ... table[x index={0}, y index={2}]{\mydata};
                                                   
 ? 
 NOTE: coordinate ("2000","0.12595009803771973") has been dropped because it is 
@@ -568,7 +568,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.12 ...le[x index = {0}, y index = {2}]{\mydata};
+l.12 ... table[x index={0}, y index={2}]{\mydata};
                                                   
 ? 
 
@@ -580,7 +580,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.12 ...le[x index = {0}, y index = {2}]{\mydata};
+l.12 ... table[x index={0}, y index={2}]{\mydata};
                                                   
 ? 
 NOTE: coordinate ("3000","0.2784590721130371") has been dropped because it is u
@@ -593,7 +593,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.12 ...le[x index = {0}, y index = {2}]{\mydata};
+l.12 ... table[x index={0}, y index={2}]{\mydata};
                                                   
 ? 
 
@@ -605,7 +605,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.12 ...le[x index = {0}, y index = {2}]{\mydata};
+l.12 ... table[x index={0}, y index={2}]{\mydata};
                                                   
 ? 
 NOTE: coordinate ("4000","0.5126011371612549") has been dropped because it is u
@@ -618,7 +618,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.12 ...le[x index = {0}, y index = {2}]{\mydata};
+l.12 ... table[x index={0}, y index={2}]{\mydata};
                                                   
 ? 
 
@@ -630,7 +630,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.12 ...le[x index = {0}, y index = {2}]{\mydata};
+l.12 ... table[x index={0}, y index={2}]{\mydata};
                                                   
 ? 
 NOTE: coordinate ("5000","0.8026463985443115") has been dropped because it is u
@@ -643,7 +643,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.12 ...le[x index = {0}, y index = {2}]{\mydata};
+l.12 ... table[x index={0}, y index={2}]{\mydata};
                                                   
 ? 
 
@@ -655,7 +655,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.12 ...le[x index = {0}, y index = {2}]{\mydata};
+l.12 ... table[x index={0}, y index={2}]{\mydata};
                                                   
 ? 
 NOTE: coordinate ("6000","1.1899793148040771") has been dropped because it is u
@@ -668,7 +668,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.12 ...le[x index = {0}, y index = {2}]{\mydata};
+l.12 ... table[x index={0}, y index={2}]{\mydata};
                                                   
 ? 
 
@@ -679,7 +679,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.12 ...le[x index = {0}, y index = {2}]{\mydata};
+l.12 ... table[x index={0}, y index={2}]{\mydata};
                                                   
 ? 
 NOTE: coordinate ("7000","1.591644525527954") has been dropped because it is un
@@ -692,7 +692,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.12 ...le[x index = {0}, y index = {2}]{\mydata};
+l.12 ... table[x index={0}, y index={2}]{\mydata};
                                                   
 ? 
 
@@ -703,7 +703,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.12 ...le[x index = {0}, y index = {2}]{\mydata};
+l.12 ... table[x index={0}, y index={2}]{\mydata};
                                                   
 ? 
 NOTE: coordinate ("8000","2.134202718734741") has been dropped because it is un
@@ -716,7 +716,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.12 ...le[x index = {0}, y index = {2}]{\mydata};
+l.12 ... table[x index={0}, y index={2}]{\mydata};
                                                   
 ? 
 
@@ -727,7 +727,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.12 ...le[x index = {0}, y index = {2}]{\mydata};
+l.12 ... table[x index={0}, y index={2}]{\mydata};
                                                   
 ? 
 NOTE: coordinate ("9000","2.647657871246338") has been dropped because it is un
@@ -740,7 +740,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.12 ...le[x index = {0}, y index = {2}]{\mydata};
+l.12 ... table[x index={0}, y index={2}]{\mydata};
                                                   
 ? 
 
@@ -752,7 +752,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.12 ...le[x index = {0}, y index = {2}]{\mydata};
+l.12 ... table[x index={0}, y index={2}]{\mydata};
                                                   
 ? 
 NOTE: coordinate ("10000","3.4031598567962646") has been dropped because it is 
@@ -765,7 +765,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.12 ...le[x index = {0}, y index = {2}]{\mydata};
+l.12 ... table[x index={0}, y index={2}]{\mydata};
                                                   
 ? 
 
@@ -776,7 +776,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.12 ...le[x index = {0}, y index = {2}]{\mydata};
+l.12 ... table[x index={0}, y index={2}]{\mydata};
                                                   
 ? 
 NOTE: coordinate ("15000","7.512190580368042") has been dropped because it is u
@@ -789,7 +789,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.12 ...le[x index = {0}, y index = {2}]{\mydata};
+l.12 ... table[x index={0}, y index={2}]{\mydata};
                                                   
 ? 
 
@@ -801,7 +801,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.12 ...le[x index = {0}, y index = {2}]{\mydata};
+l.12 ... table[x index={0}, y index={2}]{\mydata};
                                                   
 ? 
 NOTE: coordinate ("20000","13.911321640014648") has been dropped because it is 
@@ -814,7 +814,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.12 ...le[x index = {0}, y index = {2}]{\mydata};
+l.12 ... table[x index={0}, y index={2}]{\mydata};
                                                   
 ? 
 
@@ -825,7 +825,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.12 ...le[x index = {0}, y index = {2}]{\mydata};
+l.12 ... table[x index={0}, y index={2}]{\mydata};
                                                   
 ? 
 NOTE: coordinate ("30000","30.85233974456787") has been dropped because it is u
@@ -838,7 +838,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.12 ...le[x index = {0}, y index = {2}]{\mydata};
+l.12 ... table[x index={0}, y index={2}]{\mydata};
                                                   
 ? 
 
@@ -849,7 +849,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.12 ...le[x index = {0}, y index = {2}]{\mydata};
+l.12 ... table[x index={0}, y index={2}]{\mydata};
                                                   
 ? 
 NOTE: coordinate ("40000","56.22572040557861") has been dropped because it is u
@@ -862,7 +862,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.12 ...le[x index = {0}, y index = {2}]{\mydata};
+l.12 ... table[x index={0}, y index={2}]{\mydata};
                                                   
 ? 
 
@@ -873,7 +873,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.12 ...le[x index = {0}, y index = {2}]{\mydata};
+l.12 ... table[x index={0}, y index={2}]{\mydata};
                                                   
 ? 
 NOTE: coordinate ("50000","85.78660988807678") has been dropped because it is u
@@ -886,7 +886,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.12 ...le[x index = {0}, y index = {2}]{\mydata};
+l.12 ... table[x index={0}, y index={2}]{\mydata};
                                                   
 ? 
 
@@ -898,7 +898,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.12 ...le[x index = {0}, y index = {2}]{\mydata};
+l.12 ... table[x index={0}, y index={2}]{\mydata};
                                                   
 ? 
 NOTE: coordinate ("60000","138.91394686698914") has been dropped because it is 
@@ -911,7 +911,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.12 ...le[x index = {0}, y index = {2}]{\mydata};
+l.12 ... table[x index={0}, y index={2}]{\mydata};
                                                   
 ? 
 
@@ -923,7 +923,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.12 ...le[x index = {0}, y index = {2}]{\mydata};
+l.12 ... table[x index={0}, y index={2}]{\mydata};
                                                   
 ? 
 NOTE: coordinate ("70000","195.81982612609863") has been dropped because it is 
@@ -936,7 +936,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.12 ...le[x index = {0}, y index = {2}]{\mydata};
+l.12 ... table[x index={0}, y index={2}]{\mydata};
                                                   
 ? 
 
@@ -948,7 +948,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.12 ...le[x index = {0}, y index = {2}]{\mydata};
+l.12 ... table[x index={0}, y index={2}]{\mydata};
                                                   
 ? 
 NOTE: coordinate ("80000","257.89415311813354") has been dropped because it is 
@@ -961,7 +961,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.12 ...le[x index = {0}, y index = {2}]{\mydata};
+l.12 ... table[x index={0}, y index={2}]{\mydata};
                                                   
 ? 
 
@@ -972,7 +972,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.12 ...le[x index = {0}, y index = {2}]{\mydata};
+l.12 ... table[x index={0}, y index={2}]{\mydata};
                                                   
 ? 
 NOTE: coordinate ("90000","308.0473208427429") has been dropped because it is u
@@ -985,7 +985,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.12 ...le[x index = {0}, y index = {2}]{\mydata};
+l.12 ... table[x index={0}, y index={2}]{\mydata};
                                                   
 ? 
 
@@ -996,7 +996,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.12 ...le[x index = {0}, y index = {2}]{\mydata};
+l.12 ... table[x index={0}, y index={2}]{\mydata};
                                                   
 ? 
 NOTE: coordinate ("100000","367.9426591396332") has been dropped because it is 
@@ -1006,27 +1006,507 @@ Package pgfplots Warning: the current plot has no coordinates (or all have been
  filtered away) on input line 12.
 
  [warning /pgfplots/warning/plot without coordinates]
+
+! Package PGF Math Error: Could not parse input '"2000"' as a floating point nu
+mber, sorry. The unreadable part was near '"2000"'..
+
+See the PGF Math package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 ... table[x index={0}, y index={1}]{\mydata};
+                                                  
+? 
+
+! Package PGF Math Error: Could not parse input '"0.0029447078704833984"' as a 
+floating point number, sorry. The unreadable part was near '"0.0029447078704833
+984"'..
+
+See the PGF Math package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 ... table[x index={0}, y index={1}]{\mydata};
+                                                  
+? 
+NOTE: coordinate ("2000","0.0029447078704833984") has been dropped because it i
+s unbounded (in y). (see also unbounded coords=jump). 
+
+! Package PGF Math Error: Could not parse input '"3000"' as a floating point nu
+mber, sorry. The unreadable part was near '"3000"'..
+
+See the PGF Math package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 ... table[x index={0}, y index={1}]{\mydata};
+                                                  
+? 
+
+! Package PGF Math Error: Could not parse input '"0.005090951919555664"' as a f
+loating point number, sorry. The unreadable part was near '"0.00509095191955566
+4"'..
+
+See the PGF Math package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 ... table[x index={0}, y index={1}]{\mydata};
+                                                  
+? 
+NOTE: coordinate ("3000","0.005090951919555664") has been dropped because it is
+ unbounded (in y). (see also unbounded coords=jump). 
+
+! Package PGF Math Error: Could not parse input '"4000"' as a floating point nu
+mber, sorry. The unreadable part was near '"4000"'..
+
+See the PGF Math package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 ... table[x index={0}, y index={1}]{\mydata};
+                                                  
+? 
+
+! Package PGF Math Error: Could not parse input '"0.0069162845611572266"' as a 
+floating point number, sorry. The unreadable part was near '"0.0069162845611572
+266"'..
+
+See the PGF Math package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 ... table[x index={0}, y index={1}]{\mydata};
+                                                  
+? 
+NOTE: coordinate ("4000","0.0069162845611572266") has been dropped because it i
+s unbounded (in y). (see also unbounded coords=jump). 
+
+! Package PGF Math Error: Could not parse input '"5000"' as a floating point nu
+mber, sorry. The unreadable part was near '"5000"'..
+
+See the PGF Math package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 ... table[x index={0}, y index={1}]{\mydata};
+                                                  
+? 
+
+! Package PGF Math Error: Could not parse input '"0.010056495666503906"' as a f
+loating point number, sorry. The unreadable part was near '"0.01005649566650390
+6"'..
+
+See the PGF Math package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 ... table[x index={0}, y index={1}]{\mydata};
+                                                  
+? 
+NOTE: coordinate ("5000","0.010056495666503906") has been dropped because it is
+ unbounded (in y). (see also unbounded coords=jump). 
+
+! Package PGF Math Error: Could not parse input '"6000"' as a floating point nu
+mber, sorry. The unreadable part was near '"6000"'..
+
+See the PGF Math package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 ... table[x index={0}, y index={1}]{\mydata};
+                                                  
+? 
+
+! Package PGF Math Error: Could not parse input '"0.012741804122924805"' as a f
+loating point number, sorry. The unreadable part was near '"0.01274180412292480
+5"'..
+
+See the PGF Math package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 ... table[x index={0}, y index={1}]{\mydata};
+                                                  
+? 
+NOTE: coordinate ("6000","0.012741804122924805") has been dropped because it is
+ unbounded (in y). (see also unbounded coords=jump). 
+
+! Package PGF Math Error: Could not parse input '"7000"' as a floating point nu
+mber, sorry. The unreadable part was near '"7000"'..
+
+See the PGF Math package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 ... table[x index={0}, y index={1}]{\mydata};
+                                                  
+? 
+
+! Package PGF Math Error: Could not parse input '"0.012745380401611328"' as a f
+loating point number, sorry. The unreadable part was near '"0.01274538040161132
+8"'..
+
+See the PGF Math package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 ... table[x index={0}, y index={1}]{\mydata};
+                                                  
+? 
+NOTE: coordinate ("7000","0.012745380401611328") has been dropped because it is
+ unbounded (in y). (see also unbounded coords=jump). 
+
+! Package PGF Math Error: Could not parse input '"8000"' as a floating point nu
+mber, sorry. The unreadable part was near '"8000"'..
+
+See the PGF Math package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 ... table[x index={0}, y index={1}]{\mydata};
+                                                  
+? 
+
+! Package PGF Math Error: Could not parse input '"0.015035390853881836"' as a f
+loating point number, sorry. The unreadable part was near '"0.01503539085388183
+6"'..
+
+See the PGF Math package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 ... table[x index={0}, y index={1}]{\mydata};
+                                                  
+? 
+NOTE: coordinate ("8000","0.015035390853881836") has been dropped because it is
+ unbounded (in y). (see also unbounded coords=jump). 
+
+! Package PGF Math Error: Could not parse input '"9000"' as a floating point nu
+mber, sorry. The unreadable part was near '"9000"'..
+
+See the PGF Math package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 ... table[x index={0}, y index={1}]{\mydata};
+                                                  
+? 
+
+! Package PGF Math Error: Could not parse input '"0.017142772674560547"' as a f
+loating point number, sorry. The unreadable part was near '"0.01714277267456054
+7"'..
+
+See the PGF Math package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 ... table[x index={0}, y index={1}]{\mydata};
+                                                  
+? 
+NOTE: coordinate ("9000","0.017142772674560547") has been dropped because it is
+ unbounded (in y). (see also unbounded coords=jump). 
+
+! Package PGF Math Error: Could not parse input '"10000"' as a floating point n
+umber, sorry. The unreadable part was near '"10000"'..
+
+See the PGF Math package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 ... table[x index={0}, y index={1}]{\mydata};
+                                                  
+? 
+
+! Package PGF Math Error: Could not parse input '"0.019253969192504883"' as a f
+loating point number, sorry. The unreadable part was near '"0.01925396919250488
+3"'..
+
+See the PGF Math package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 ... table[x index={0}, y index={1}]{\mydata};
+                                                  
+? 
+NOTE: coordinate ("10000","0.019253969192504883") has been dropped because it i
+s unbounded (in y). (see also unbounded coords=jump). 
+
+! Package PGF Math Error: Could not parse input '"15000"' as a floating point n
+umber, sorry. The unreadable part was near '"15000"'..
+
+See the PGF Math package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 ... table[x index={0}, y index={1}]{\mydata};
+                                                  
+? 
+
+! Package PGF Math Error: Could not parse input '"0.030708789825439453"' as a f
+loating point number, sorry. The unreadable part was near '"0.03070878982543945
+3"'..
+
+See the PGF Math package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 ... table[x index={0}, y index={1}]{\mydata};
+                                                  
+? 
+NOTE: coordinate ("15000","0.030708789825439453") has been dropped because it i
+s unbounded (in y). (see also unbounded coords=jump). 
+
+! Package PGF Math Error: Could not parse input '"20000"' as a floating point n
+umber, sorry. The unreadable part was near '"20000"'..
+
+See the PGF Math package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 ... table[x index={0}, y index={1}]{\mydata};
+                                                  
+? 
+
+! Package PGF Math Error: Could not parse input '"0.04174017906188965"' as a fl
+oating point number, sorry. The unreadable part was near '"0.04174017906188965"
+'..
+
+See the PGF Math package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 ... table[x index={0}, y index={1}]{\mydata};
+                                                  
+? 
+NOTE: coordinate ("20000","0.04174017906188965") has been dropped because it is
+ unbounded (in y). (see also unbounded coords=jump). 
+
+! Package PGF Math Error: Could not parse input '"30000"' as a floating point n
+umber, sorry. The unreadable part was near '"30000"'..
+
+See the PGF Math package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 ... table[x index={0}, y index={1}]{\mydata};
+                                                  
+? 
+
+! Package PGF Math Error: Could not parse input '"0.059370994567871094"' as a f
+loating point number, sorry. The unreadable part was near '"0.05937099456787109
+4"'..
+
+See the PGF Math package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 ... table[x index={0}, y index={1}]{\mydata};
+                                                  
+? 
+NOTE: coordinate ("30000","0.059370994567871094") has been dropped because it i
+s unbounded (in y). (see also unbounded coords=jump). 
+
+! Package PGF Math Error: Could not parse input '"40000"' as a floating point n
+umber, sorry. The unreadable part was near '"40000"'..
+
+See the PGF Math package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 ... table[x index={0}, y index={1}]{\mydata};
+                                                  
+? 
+
+! Package PGF Math Error: Could not parse input '"0.08980774879455566"' as a fl
+oating point number, sorry. The unreadable part was near '"0.08980774879455566"
+'..
+
+See the PGF Math package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 ... table[x index={0}, y index={1}]{\mydata};
+                                                  
+? 
+NOTE: coordinate ("40000","0.08980774879455566") has been dropped because it is
+ unbounded (in y). (see also unbounded coords=jump). 
+
+! Package PGF Math Error: Could not parse input '"50000"' as a floating point n
+umber, sorry. The unreadable part was near '"50000"'..
+
+See the PGF Math package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 ... table[x index={0}, y index={1}]{\mydata};
+                                                  
+? 
+
+! Package PGF Math Error: Could not parse input '"0.11409997940063477"' as a fl
+oating point number, sorry. The unreadable part was near '"0.11409997940063477"
+'..
+
+See the PGF Math package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 ... table[x index={0}, y index={1}]{\mydata};
+                                                  
+? 
+NOTE: coordinate ("50000","0.11409997940063477") has been dropped because it is
+ unbounded (in y). (see also unbounded coords=jump). 
+
+! Package PGF Math Error: Could not parse input '"60000"' as a floating point n
+umber, sorry. The unreadable part was near '"60000"'..
+
+See the PGF Math package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 ... table[x index={0}, y index={1}]{\mydata};
+                                                  
+? 
+
+! Package PGF Math Error: Could not parse input '"0.14025044441223145"' as a fl
+oating point number, sorry. The unreadable part was near '"0.14025044441223145"
+'..
+
+See the PGF Math package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 ... table[x index={0}, y index={1}]{\mydata};
+                                                  
+? 
+NOTE: coordinate ("60000","0.14025044441223145") has been dropped because it is
+ unbounded (in y). (see also unbounded coords=jump). 
+
+! Package PGF Math Error: Could not parse input '"70000"' as a floating point n
+umber, sorry. The unreadable part was near '"70000"'..
+
+See the PGF Math package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 ... table[x index={0}, y index={1}]{\mydata};
+                                                  
+? 
+
+! Package PGF Math Error: Could not parse input '"0.1612415313720703"' as a flo
+ating point number, sorry. The unreadable part was near '"0.1612415313720703"'.
+.
+
+See the PGF Math package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 ... table[x index={0}, y index={1}]{\mydata};
+                                                  
+? 
+NOTE: coordinate ("70000","0.1612415313720703") has been dropped because it is 
+unbounded (in y). (see also unbounded coords=jump). 
+
+! Package PGF Math Error: Could not parse input '"80000"' as a floating point n
+umber, sorry. The unreadable part was near '"80000"'..
+
+See the PGF Math package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 ... table[x index={0}, y index={1}]{\mydata};
+                                                  
+? 
+
+! Package PGF Math Error: Could not parse input '"0.20697832107543945"' as a fl
+oating point number, sorry. The unreadable part was near '"0.20697832107543945"
+'..
+
+See the PGF Math package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 ... table[x index={0}, y index={1}]{\mydata};
+                                                  
+? 
+NOTE: coordinate ("80000","0.20697832107543945") has been dropped because it is
+ unbounded (in y). (see also unbounded coords=jump). 
+
+! Package PGF Math Error: Could not parse input '"90000"' as a floating point n
+umber, sorry. The unreadable part was near '"90000"'..
+
+See the PGF Math package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 ... table[x index={0}, y index={1}]{\mydata};
+                                                  
+? 
+
+! Package PGF Math Error: Could not parse input '"0.23621416091918945"' as a fl
+oating point number, sorry. The unreadable part was near '"0.23621416091918945"
+'..
+
+See the PGF Math package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 ... table[x index={0}, y index={1}]{\mydata};
+                                                  
+? 
+NOTE: coordinate ("90000","0.23621416091918945") has been dropped because it is
+ unbounded (in y). (see also unbounded coords=jump). 
+
+! Package PGF Math Error: Could not parse input '"100000"' as a floating point 
+number, sorry. The unreadable part was near '"100000"'..
+
+See the PGF Math package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 ... table[x index={0}, y index={1}]{\mydata};
+                                                  
+? 
+
+! Package PGF Math Error: Could not parse input '"0.23517298698425293"' as a fl
+oating point number, sorry. The unreadable part was near '"0.23517298698425293"
+'..
+
+See the PGF Math package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 ... table[x index={0}, y index={1}]{\mydata};
+                                                  
+? 
+NOTE: coordinate ("100000","0.23517298698425293") has been dropped because it i
+s unbounded (in y). (see also unbounded coords=jump). 
+
+Package pgfplots Warning: the current plot has no coordinates (or all have been
+ filtered away) on input line 13.
+
+ [warning /pgfplots/warning/plot without coordinates]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 15.
+(Font)              <7> on input line 16.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 15.
+(Font)              <5> on input line 16.
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./test.aux) ) 
 Here is how much of TeX's memory you used:
- 17988 strings out of 495028
- 442483 string characters out of 6181497
- 580970 words of memory out of 5000000
- 20860 multiletter control sequences out of 15000+600000
+ 17992 strings out of 495028
+ 442620 string characters out of 6181497
+ 581970 words of memory out of 5000000
+ 20864 multiletter control sequences out of 15000+600000
  3640 words of font info for 14 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 63i,18n,94p,724b,1961s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,18n,94p,724b,1979s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/
 texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on test.pdf (1 page, 34969 bytes).
+Output written on test.pdf (1 page, 36591 bytes).
 PDF statistics:
  27 PDF objects out of 1000 (max. 8388607)
  19 compressed objects within 1 object stream
