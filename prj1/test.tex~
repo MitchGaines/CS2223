@@ -9,7 +9,7 @@
 					xmin = 0, xmax = 10000,
 					ymin = 0, ymax = 37,
 					]
-					\addplot table[x index = {0}, y index = {2}]{\mydata};
+					\addplot table[x index = {0}, y index = {2}, ignore chars="]{\mydata};
 					\legend{Actual}
 		\addplot {x^2 - x +4}; 
   \end{axis}
