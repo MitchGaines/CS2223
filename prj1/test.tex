@@ -10,8 +10,9 @@
 					ymin = 0, ymax = 370,
 					]
 					\addplot table[x index={0}, y index={2}]{\mydata};
+					\legend{BF}
 					\addplot table[x index={0}, y index={1}]{\mydata};
-					\legend{Brute Force}
+					\legend{DC}
 		\addplot {x^2 - x +4}; 
   \end{axis}
 	\end{tikzpicture}

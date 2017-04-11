@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.3.21)  10 APR 2017 22:06
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.3.21)  10 APR 2017 22:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1014,7 +1014,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.13 ... table[x index={0}, y index={1}]{\mydata};
+l.14 ... table[x index={0}, y index={1}]{\mydata};
                                                   
 ? 
 
@@ -1026,7 +1026,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.13 ... table[x index={0}, y index={1}]{\mydata};
+l.14 ... table[x index={0}, y index={1}]{\mydata};
                                                   
 ? 
 NOTE: coordinate ("2000","0.0029447078704833984") has been dropped because it i
@@ -1039,7 +1039,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.13 ... table[x index={0}, y index={1}]{\mydata};
+l.14 ... table[x index={0}, y index={1}]{\mydata};
                                                   
 ? 
 
@@ -1051,7 +1051,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.13 ... table[x index={0}, y index={1}]{\mydata};
+l.14 ... table[x index={0}, y index={1}]{\mydata};
                                                   
 ? 
 NOTE: coordinate ("3000","0.005090951919555664") has been dropped because it is
@@ -1064,7 +1064,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.13 ... table[x index={0}, y index={1}]{\mydata};
+l.14 ... table[x index={0}, y index={1}]{\mydata};
                                                   
 ? 
 
@@ -1076,7 +1076,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.13 ... table[x index={0}, y index={1}]{\mydata};
+l.14 ... table[x index={0}, y index={1}]{\mydata};
                                                   
 ? 
 NOTE: coordinate ("4000","0.0069162845611572266") has been dropped because it i
@@ -1089,7 +1089,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.13 ... table[x index={0}, y index={1}]{\mydata};
+l.14 ... table[x index={0}, y index={1}]{\mydata};
                                                   
 ? 
 
@@ -1101,7 +1101,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.13 ... table[x index={0}, y index={1}]{\mydata};
+l.14 ... table[x index={0}, y index={1}]{\mydata};
                                                   
 ? 
 NOTE: coordinate ("5000","0.010056495666503906") has been dropped because it is
@@ -1114,7 +1114,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.13 ... table[x index={0}, y index={1}]{\mydata};
+l.14 ... table[x index={0}, y index={1}]{\mydata};
                                                   
 ? 
 
@@ -1126,7 +1126,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.13 ... table[x index={0}, y index={1}]{\mydata};
+l.14 ... table[x index={0}, y index={1}]{\mydata};
                                                   
 ? 
 NOTE: coordinate ("6000","0.012741804122924805") has been dropped because it is
@@ -1139,7 +1139,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.13 ... table[x index={0}, y index={1}]{\mydata};
+l.14 ... table[x index={0}, y index={1}]{\mydata};
                                                   
 ? 
 
@@ -1151,7 +1151,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.13 ... table[x index={0}, y index={1}]{\mydata};
+l.14 ... table[x index={0}, y index={1}]{\mydata};
                                                   
 ? 
 NOTE: coordinate ("7000","0.012745380401611328") has been dropped because it is
@@ -1164,7 +1164,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.13 ... table[x index={0}, y index={1}]{\mydata};
+l.14 ... table[x index={0}, y index={1}]{\mydata};
                                                   
 ? 
 
@@ -1176,7 +1176,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.13 ... table[x index={0}, y index={1}]{\mydata};
+l.14 ... table[x index={0}, y index={1}]{\mydata};
                                                   
 ? 
 NOTE: coordinate ("8000","0.015035390853881836") has been dropped because it is
@@ -1189,7 +1189,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.13 ... table[x index={0}, y index={1}]{\mydata};
+l.14 ... table[x index={0}, y index={1}]{\mydata};
                                                   
 ? 
 
@@ -1201,7 +1201,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.13 ... table[x index={0}, y index={1}]{\mydata};
+l.14 ... table[x index={0}, y index={1}]{\mydata};
                                                   
 ? 
 NOTE: coordinate ("9000","0.017142772674560547") has been dropped because it is
@@ -1214,7 +1214,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.13 ... table[x index={0}, y index={1}]{\mydata};
+l.14 ... table[x index={0}, y index={1}]{\mydata};
                                                   
 ? 
 
@@ -1226,7 +1226,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.13 ... table[x index={0}, y index={1}]{\mydata};
+l.14 ... table[x index={0}, y index={1}]{\mydata};
                                                   
 ? 
 NOTE: coordinate ("10000","0.019253969192504883") has been dropped because it i
@@ -1239,7 +1239,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.13 ... table[x index={0}, y index={1}]{\mydata};
+l.14 ... table[x index={0}, y index={1}]{\mydata};
                                                   
 ? 
 
@@ -1251,7 +1251,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.13 ... table[x index={0}, y index={1}]{\mydata};
+l.14 ... table[x index={0}, y index={1}]{\mydata};
                                                   
 ? 
 NOTE: coordinate ("15000","0.030708789825439453") has been dropped because it i
@@ -1264,7 +1264,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.13 ... table[x index={0}, y index={1}]{\mydata};
+l.14 ... table[x index={0}, y index={1}]{\mydata};
                                                   
 ? 
 
@@ -1276,7 +1276,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.13 ... table[x index={0}, y index={1}]{\mydata};
+l.14 ... table[x index={0}, y index={1}]{\mydata};
                                                   
 ? 
 NOTE: coordinate ("20000","0.04174017906188965") has been dropped because it is
@@ -1289,7 +1289,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.13 ... table[x index={0}, y index={1}]{\mydata};
+l.14 ... table[x index={0}, y index={1}]{\mydata};
                                                   
 ? 
 
@@ -1301,7 +1301,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.13 ... table[x index={0}, y index={1}]{\mydata};
+l.14 ... table[x index={0}, y index={1}]{\mydata};
                                                   
 ? 
 NOTE: coordinate ("30000","0.059370994567871094") has been dropped because it i
@@ -1314,7 +1314,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.13 ... table[x index={0}, y index={1}]{\mydata};
+l.14 ... table[x index={0}, y index={1}]{\mydata};
                                                   
 ? 
 
@@ -1326,7 +1326,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.13 ... table[x index={0}, y index={1}]{\mydata};
+l.14 ... table[x index={0}, y index={1}]{\mydata};
                                                   
 ? 
 NOTE: coordinate ("40000","0.08980774879455566") has been dropped because it is
@@ -1339,7 +1339,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.13 ... table[x index={0}, y index={1}]{\mydata};
+l.14 ... table[x index={0}, y index={1}]{\mydata};
                                                   
 ? 
 
@@ -1351,7 +1351,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.13 ... table[x index={0}, y index={1}]{\mydata};
+l.14 ... table[x index={0}, y index={1}]{\mydata};
                                                   
 ? 
 NOTE: coordinate ("50000","0.11409997940063477") has been dropped because it is
@@ -1364,7 +1364,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.13 ... table[x index={0}, y index={1}]{\mydata};
+l.14 ... table[x index={0}, y index={1}]{\mydata};
                                                   
 ? 
 
@@ -1376,7 +1376,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.13 ... table[x index={0}, y index={1}]{\mydata};
+l.14 ... table[x index={0}, y index={1}]{\mydata};
                                                   
 ? 
 NOTE: coordinate ("60000","0.14025044441223145") has been dropped because it is
@@ -1389,7 +1389,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.13 ... table[x index={0}, y index={1}]{\mydata};
+l.14 ... table[x index={0}, y index={1}]{\mydata};
                                                   
 ? 
 
@@ -1401,7 +1401,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.13 ... table[x index={0}, y index={1}]{\mydata};
+l.14 ... table[x index={0}, y index={1}]{\mydata};
                                                   
 ? 
 NOTE: coordinate ("70000","0.1612415313720703") has been dropped because it is 
@@ -1414,7 +1414,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.13 ... table[x index={0}, y index={1}]{\mydata};
+l.14 ... table[x index={0}, y index={1}]{\mydata};
                                                   
 ? 
 
@@ -1426,7 +1426,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.13 ... table[x index={0}, y index={1}]{\mydata};
+l.14 ... table[x index={0}, y index={1}]{\mydata};
                                                   
 ? 
 NOTE: coordinate ("80000","0.20697832107543945") has been dropped because it is
@@ -1439,7 +1439,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.13 ... table[x index={0}, y index={1}]{\mydata};
+l.14 ... table[x index={0}, y index={1}]{\mydata};
                                                   
 ? 
 
@@ -1451,7 +1451,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.13 ... table[x index={0}, y index={1}]{\mydata};
+l.14 ... table[x index={0}, y index={1}]{\mydata};
                                                   
 ? 
 NOTE: coordinate ("90000","0.23621416091918945") has been dropped because it is
@@ -1464,7 +1464,7 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.13 ... table[x index={0}, y index={1}]{\mydata};
+l.14 ... table[x index={0}, y index={1}]{\mydata};
                                                   
 ? 
 
@@ -1476,20 +1476,20 @@ See the PGF Math package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.13 ... table[x index={0}, y index={1}]{\mydata};
+l.14 ... table[x index={0}, y index={1}]{\mydata};
                                                   
 ? 
 NOTE: coordinate ("100000","0.23517298698425293") has been dropped because it i
 s unbounded (in y). (see also unbounded coords=jump). 
 
 Package pgfplots Warning: the current plot has no coordinates (or all have been
- filtered away) on input line 13.
+ filtered away) on input line 14.
 
  [warning /pgfplots/warning/plot without coordinates]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 16.
+(Font)              <7> on input line 17.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 16.
+(Font)              <5> on input line 17.
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./test.aux) ) 
@@ -1506,7 +1506,7 @@ texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on test.pdf (1 page, 36591 bytes).
+Output written on test.pdf (1 page, 34650 bytes).
 PDF statistics:
  27 PDF objects out of 1000 (max. 8388607)
  19 compressed objects within 1 object stream
