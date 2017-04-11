@@ -1,14 +1,17 @@
 \documentclass[tikz]{standalone}
 \usepackage{pgfplots}
-\pgfplotsset{compat = 1.20}
+\pgfplotsset{compat=1.9}
 \pgfplotstableread[col sep = comma]{data.csv}\mydata
 \begin{document}
 \begin{tikzpicture}
   \begin{axis}[ 
-	    xlabel=$x$,
-	    ylabel={$f(x) = x^2 - x +4$}
-		  ] 
-		 \addplot {x^2 - x +4}; 
+					legend pos = north west,
+					xmin = 0, xmax = 10000,
+					ymin = 0, ymax = 37,
+					]
+					\addplot table[x index = {0}, y index = {2}]{\mydata};
+					\legend{Actual}
+		\addplot {x^2 - x +4}; 
   \end{axis}
 	\end{tikzpicture}
 \end{document}
