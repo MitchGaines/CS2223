@@ -1,0 +1,104 @@
+
+% homework template % 
+%
+% NOTE: 
+% Be sure to define your name with the \name command 
+% sure to use the \answer command for each of your answers 
+%   (first argument: problem name 
+%   second argument: collaborators (write 'none' if you solved it alone)) 
+\documentclass[12pt]{article}
+
+%\newcommand{\name}{ INSERT NAME HERE} 
+%\newcommand{\pcroblemset}{ Homework X }
+%\pagestyle{headings} 
+\usepackage[dvips]{graphics,color} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsmath} 
+\usepackage{latexsym} 
+\usepackage{enumerate} 
+\setlength{\parskip}{1pc} 
+\setlength{\parindent}{0pt} 
+\setlength{\topmargin}{-3pc} 
+\setlength{\textheight}{9.5in} 
+\setlength{\oddsidemargin}{0pc} 
+\setlength{\evensidemargin}{0pc} 
+\setlength{\textwidth}{6.5in}
+
+\newcommand{\answer}[2]{ \newpage \noindent \framebox{
+	\vbox{
+		Homework \hfill {\bf \problemset}
+% 		\hfill \# #1 \\
+			\name \hfill \today \\ 
+%        Collaborators: #2
+	}
+} 
+
+\bigskip
+}
+
+\newcommand\tab[1][1cm]{\hspace*{#1}}
+
+\begin{document}
+Homework Assignment: 2\\ 
+Name: Jonathan Gaines\\ 
+Date: 3/29/2017\\ --------------------------------------------------------------------------------------------------
+\begin {enumerate}
+\item XSort Algorithm
+	\begin {enumerate}[(a)]
+		\item
+		$$EXAMPLE\Rightarrow 
+			AXEMPLE\Rightarrow	
+			AEXMPLE\Rightarrow
+			AEEMPLX$$ $$\Rightarrow 
+		  AEELPMX\Rightarrow
+			AEELMPX $$		
+		\item
+			Time Efficiency: $O(n^{2})$ \\
+			Space Efficiency: $O(1)$ 
+		\item 
+						Stability in an algorithm refers to the ordering of elements of same values in the final sorted list. A stable algorithm will keep elements of the same value in the same order as they appeared in the unordered list. This algorithm is not stable. This is shown when givent the list [2, 2, 1]; the first 2 element is swapped with 1 resulting in [1, 2, 2] and the original order of the equal elements is now changed. \par
+	\end {enumerate}
+\item Bubble Sort
+	\begin {enumerate}[(a)]
+		\item
+		$$EXAMPLE\Rightarrow
+			EAXMPLE\Rightarrow
+			EAMXPLE\Rightarrow
+			EAMPXLE$$ $$\Rightarrow
+			EAMPLXE\Rightarrow
+			EAMPLEX\Rightarrow
+			AEMPLEX\Rightarrow
+			AEMPLEX$$ $$\Rightarrow
+			AEMPLEX\Rightarrow
+			AEMLPEX\Rightarrow
+			AEMLEPX\Rightarrow
+			AEMLEPX$$ $$\Rightarrow
+			AEMLEPX\Rightarrow
+			AELMEPX\Rightarrow
+			AELEMPX\Rightarrow
+			AELEMPX$$ $$\Rightarrow
+			AELEMPX\Rightarrow
+			AEELMPX\Rightarrow
+			AEELMPX\Rightarrow
+			AEELMPX$$ $$\Rightarrow
+			AEELMPX
+		$$
+		\item
+			Bubble sort works by progressively swapping larger elements with smaller elements to the right. If no swaps occur during the pass through the array, then the list is sorted. \par
+		\item
+			This sort is stable because the comparison is testing to see if $alist[x] > alist[x+1]$ rather than $list[x] \geq list[x+1]$. Thus, a swap is only made if element x is larger than element x+1. \par 
+	\end {enumerate}
+\item Show that $n^{2} \in O(n^{2}+10n), n \geq 0$ \\ \\
+	\tab Choose $c=1$ \\ \\
+	\tab $n^{2} \leq n^{2} + 10n$, while $n>0$ \\ \\
+	\tab \Rightarrow $0 \leq c10n$ \\ \\ 
+	\tab because this holds true, $n^{2} \in O(n^{2}+10n)$
+\item Show that $n \not\in \Omega(n^{2})$ \\ \\
+	\tab if $f(n) \in \Omega(g(n))$, then $f(n) \geq cg(n)$ \\ \\
+	\tab \Rightarrow $n \geq cn^{2}$, while $c>0$ \\ \\
+	\tab \Rightarrow $1 \geq cn$ \Rightarrow $n\leq\frac{1}{c}$ \\ \\
+	\tab because $n>\frac{1}{c}$, then $n \not\in \Omega(n^{2})$
+\end {enumerate}
+
+\end{document}
