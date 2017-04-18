@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.3.21)  18 APR 2017 15:24
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.3.21)  18 APR 2017 17:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -126,8 +126,7 @@ LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
 (/usr/share/texlive/texmf-dist/tex/latex/tools/enumerate.sty
 Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
 \@enLab=\toks20
-)
-No file hwk3.aux.
+) (./hwk3.aux)
 \openout1 = `hwk3.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
@@ -142,6 +141,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
 LaTeX Font Info:    ... okay on input line 42.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
 LaTeX Font Info:    ... okay on input line 42.
+
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -194,6 +194,20 @@ Package etexcmds Info: Could not find \expanded.
 
 Package epstopdf Warning: Drivers other than `pdftex.def' are not supported.
 
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 51.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 51.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for U+lasy on input line 51.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 ) [1
 Non-PDF special ignored!
 Non-PDF special ignored!
@@ -234,18 +248,20 @@ Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
 Non-PDF special ignored!] (./hwk3.aux) ) 
 Here is how much of TeX's memory you used:
- 1970 strings out of 495028
- 25949 string characters out of 6181497
- 76420 words of memory out of 5000000
- 5179 multiletter control sequences out of 15000+600000
- 3938 words of font info for 15 fonts, out of 8000000 for 9000
+ 2027 strings out of 495028
+ 26898 string characters out of 6181497
+ 77420 words of memory out of 5000000
+ 5209 multiletter control sequences out of 15000+600000
+ 8603 words of font info for 35 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 38i,5n,24p,230b,161s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,6n,24p,230b,294s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmr12.pfb>
-Output written on hwk3.pdf (1 page, 16703 bytes).
+Output written on hwk3.pdf (1 page, 18306 bytes).
 PDF statistics:
  12 PDF objects out of 1000 (max. 8388607)
  7 compressed objects within 1 object stream
