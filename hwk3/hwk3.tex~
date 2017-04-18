@@ -54,16 +54,23 @@ Date: 4/19/2017\\ --------------------------------------------------------------
 									3 & Job 2 			& Job 1				& 65 \\
 									4 & Job 2 			& Job 3				& 60 \\
 									5 & Job 4				& Job 1				& 70 \\
-									6 & Job 4				& Job 3				& 65
+									6 & Job 4				& Job 3				& 65 \\ 
+									7 & Job 1				& N/A					& 30 \\
+									8 & Job 2				& N/A					& 35 \\
+									9 & Job 3 			& N/A					& 25 \\
+									10& Job 4				& N/A					& 40
 			\end{tabular}
 		\item
 			The optimal schedule has Job 4 in timeslot 1 and Job 1 in timeslot 2 for a profit of \$70. \par
 		\item
+			A high level greedy algorithm would choose the largest profit with a deadline of 1 or 2, then choose the largest profit with a deadline of 1. In this case, it would choose Job 4, then Job 1. \par
 	\end {enumerate}
 \item Dynamic Programming: Change Making
 	\begin {enumerate}[(a)]
 		\item
+			The minimum number of coins needed to meet the amount is 3. \par
 		\item
+			Minimum coin combinations include ${1, 2, 5}$ and ${3, 3, 3}$
 		\item
 		\item
 	\end {enumerate}
