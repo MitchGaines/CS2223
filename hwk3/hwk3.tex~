@@ -99,14 +99,16 @@ Date: 4/19/2017\\ --------------------------------------------------------------
 				& \multicolumn{1}{c}{1}& \multicolumn{1}{c}{2}& \multicolumn{1}{c}{3}
 				& \multicolumn{1}{c}{4}& \multicolumn{1}{c}{5}& \multicolumn{1}{c}{6}
 				& \multicolumn{1}{c}{7}& \multicolumn{1}{c}{8}& \multicolumn{1}{c}{9}& \multicolumn{1}{c}{10} \\
-							0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 31    \\
-							1 & & & & & & & & & &  \\
-							2 & & & & & & & & & &  \\
-							3 & & & & & & & & & &  \\
-							4 & & & & & & & & & &  \\
+							0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0    \\
+							1 & 0 & 0 & 0 & 0 & 0 & 10 & 10 & 10 & 10 & 10 & 10  \\
+							2 & 0 & & & & & & & & &  \\
+							3 & 0 & & & & & & & & &  \\
+							4 & 0 & & & & & & & & &  \\
 			\end{tabular}
 		\item
+			The optimal subset has a value of \$90 and consists of items 2 and 4. \par
 		\item
+
 	\end {enumerate}
 \item Greedy Algorithm
 	\begin {enumerate}[(a)]
