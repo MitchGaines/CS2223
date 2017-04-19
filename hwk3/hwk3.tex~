@@ -38,7 +38,6 @@
 \lstset{language=Python,
   showstringspaces=false,
 	breaklines=true,
-	tabsize=1
 }
 
 \bigskip
