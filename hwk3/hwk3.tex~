@@ -118,12 +118,7 @@ Date: 4/19/2017\\ --------------------------------------------------------------
 			\end{tabular}
 		\item
 			The optimal subset has a value of \$90 and consists of items 2 and 4. \par
-		\item
-
-	\end {enumerate}
-\item Greedy Algorithm
-	\begin {enumerate}[(a)]
-		\item
+		\item 
 			Knapsack(vals[], weights[], w): \\
 \tab				n = len(vals[]) \\
 \tab				for j from 0 to w:\\
@@ -135,6 +130,11 @@ Date: 4/19/2017\\ --------------------------------------------------------------
 \tab\tab\tab 		else: \\
 \tab\tab\tab\tab	m[i, j] = max(m[i-1, j], m[i-1, j - weights[i]] + vals[i]) \\
 \tab				return m[n, w] \\
+
+	\end {enumerate}
+\item Greedy Algorithm
+	\begin {enumerate}[(a)]
+		\item
 		\item
 			10000110111
 		\item
