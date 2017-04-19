@@ -79,6 +79,12 @@ Date: 4/19/2017\\ --------------------------------------------------------------
 							$f(n)$	& 0	& 1 & 2 & 1 & 2 & 1 & 2 & 3 & 2 & 3
 			\end{tabular}
 		\item
+			\begin{algorithm}
+				\caption{Change Making Pseudocode}
+				\begin{algorithmic}
+					
+				\end{algorithmic}
+			\end{algorithm}
 	\end {enumerate}
 \item Dyanmic Programming: Knapsack Problem
 	\begin {enumerate}[(a)]
