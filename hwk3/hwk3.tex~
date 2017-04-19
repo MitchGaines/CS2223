@@ -18,7 +18,7 @@
 \usepackage{latexsym} 
 \usepackage{enumerate} 
 \usepackage{multirow}
-\usepackage{forest}
+\usepackage{graphicx}
 \setlength{\parskip}{1pc} 
 \setlength{\parindent}{0pt} 
 \setlength{\topmargin}{-3pc} 
@@ -26,6 +26,8 @@
 \setlength{\oddsidemargin}{0pc} 
 \setlength{\evensidemargin}{0pc} 
 \setlength{\textwidth}{6.5in}
+
+\graphicspath{{imgs/}}
 
 \newcommand{\answer}[2]{ \newpage \noindent \framebox{
 	\vbox{
@@ -35,6 +37,15 @@
 %        Collaborators: #2
 	}
 } 
+
+\forestset{
+	nice empty nodes/.style={
+	for tree={calign=fixed edge angles},
+  delay={where content={}{shape=coordinate, for parent={for children={anchor=north}}}{circle, draw}}
+},
+  zero/.style={edge label={node[midway, left] {0}}},
+  one/.style={edge label={node[midway, right] {1}}},
+}
 
 \lstset{language=Python,
 }
