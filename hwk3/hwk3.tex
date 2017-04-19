@@ -17,8 +17,7 @@
 \usepackage{amsmath} 
 \usepackage{latexsym} 
 \usepackage{enumerate} 
-\usepackage{algorithm}
-\usepackage{algorithmic}
+\usepackage{listings}
 \setlength{\parskip}{1pc} 
 \setlength{\parindent}{0pt} 
 \setlength{\topmargin}{-3pc} 
@@ -35,6 +34,23 @@
 %        Collaborators: #2
 	}
 } 
+
+\lstset{frame=tb,
+  language=Python,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+	numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+	commentstyle=\color{dkgreen},
+	stringstyle=\color{mauve},
+	breaklines=true,
+  breakatwhitespace=true,
+	tabsize=2
+}
 
 \bigskip
 }
@@ -79,13 +95,18 @@ Date: 4/19/2017\\ --------------------------------------------------------------
 							$f(n)$	& 0	& 1 & 2 & 1 & 2 & 1 & 2 & 3 & 2 & 3
 			\end{tabular}
 		\item
-			\begin{algorithm}
-				\caption{Change Making Pseudocode}
-				\begin{algorithmic}
-					\STATE change-making(D[1, 3, 5], 9)
-					
-				\end{algorithmic}
-			\end{algorithm}
+			\begin{lstlisting}
+			Change-making(D[j], n):
+				f[0] = 0
+				for i = 1 to n do
+					temp = \infty
+					j = 1
+					while j \leq m and i \geq D[j] do
+						temp = min(f(i-D[j]), temp)
+						j = j + 1
+					f[1] = temp + 1
+				return f(n)
+			\end{lstlisting}
 	\end {enumerate}
 \item Dyanmic Programming: Knapsack Problem
 	\begin {enumerate}[(a)]
