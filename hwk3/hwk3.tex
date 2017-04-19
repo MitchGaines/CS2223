@@ -82,9 +82,9 @@ Date: 4/19/2017\\ --------------------------------------------------------------
 			Change-making(D[j], n): \\
 \tab				f[0] = 0 \\
 \tab				for i = 1 to n do \\
-\tab\tab					temp = -1 \\
+\tab\tab					temp = $\infty$ \\
 \tab\tab					j = 1 \\ 
-\tab\tab					while j <= m and i >= D[j] do \\
+\tab\tab					while j $\leq$  m and i $\geq$ D[j] do \\
 \tab\tab\tab 				temp = min(f(i-D[j]), temp) \\
 \tab\tab\tab					j = j + 1 \\ 
 \tab\tab					f[1] = temp + 1 \\
