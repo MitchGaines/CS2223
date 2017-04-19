@@ -18,7 +18,6 @@
 \usepackage{latexsym} 
 \usepackage{enumerate} 
 \usepackage{multirow}
-\usepackage{graphicx}
 \setlength{\parskip}{1pc} 
 \setlength{\parindent}{0pt} 
 \setlength{\topmargin}{-3pc} 
@@ -125,7 +124,17 @@ Date: 4/19/2017\\ --------------------------------------------------------------
 \item Greedy Algorithm
 	\begin {enumerate}[(a)]
 		\item
-			\includegraphics[scale=0.75, bb=0 0 30 30]{huff-tree.eps}
+			Knapsack(vals[], weights[], w):
+\tab				n = len(vals[])
+\tab				for j from 0 to w:
+\tab\tab			m[0, j] = 0
+\tab				for i from 1 to n:
+\tab\tab 			for j from 0 to w:
+\tab\tab\tab 		if weights[i] > j:
+\tab\tab\tab\tab	m[i, j] = m[i-1, j]
+\tab\tab\tab 		else:
+\tab\tab\tab\tab	m[i, j] = max(m[i-1, j], m[i-1, j - weights[i]] + vals[i])
+\tab				return m[n, w]
 		\item
 			10000110111
 		\item
