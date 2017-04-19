@@ -126,21 +126,24 @@ LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
 (/usr/share/texlive/texmf-dist/tex/latex/tools/enumerate.sty
 Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
 \@enLab=\toks20
+)
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen112
 ) (./hwk3.aux)
 \openout1 = `hwk3.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
@@ -195,42 +198,42 @@ Package etexcmds Info: Could not find \expanded.
 Package epstopdf Warning: Drivers other than `pdftex.def' are not supported.
 
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 52.
+LaTeX Font Info:    Try loading font information for U+msa on input line 53.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 52.
+LaTeX Font Info:    Try loading font information for U+msb on input line 53.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+lasy on input line 52.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 53.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 75.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 76.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 75.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 76.
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--92
+Underfull \hbox (badness 10000) in paragraph at lines 83--93
 
  []
 
 ! Extra alignment tab has been changed to \cr.
 <template> \endtemplate 
                         
-l.100 ...ticolumn{1}{c}{8}& \multicolumn{1}{c}{9}&
+l.101 ...ticolumn{1}{c}{8}& \multicolumn{1}{c}{9}&
                                                    \multicolumn{1}{c}{10}
 ? 
 ! Misplaced \omit.
 \@cline #1-#2\@nil ->\omit 
                            \@multicnt #1\advance \@multispan \m@ne \ifnum \@...
-l.101 				\cline{2-11}
+l.102 				\cline{2-11}
                       
 ? 
 [1
@@ -279,10 +282,10 @@ Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!] (./hwk3.aux) ) 
 Here is how much of TeX's memory you used:
- 2046 strings out of 493304
- 27217 string characters out of 6139871
- 86728 words of memory out of 5000000
- 5474 multiletter control sequences out of 15000+600000
+ 2058 strings out of 493304
+ 27496 string characters out of 6139871
+ 86927 words of memory out of 5000000
+ 5482 multiletter control sequences out of 15000+600000
  8603 words of font info for 35 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  38i,7n,24p,230b,265s stack positions out of 5000i,500n,10000p,200000b,80000s
