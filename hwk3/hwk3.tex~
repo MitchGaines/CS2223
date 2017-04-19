@@ -18,6 +18,7 @@
 \usepackage{latexsym} 
 \usepackage{enumerate} 
 \usepackage{multirow}
+\usepackage{forest}
 \setlength{\parskip}{1pc} 
 \setlength{\parindent}{0pt} 
 \setlength{\topmargin}{-3pc} 
@@ -114,7 +115,9 @@ Date: 4/19/2017\\ --------------------------------------------------------------
 	\begin {enumerate}[(a)]
 		\item
 		\item
+			10000110111
 		\item
+			BADFAD
 	\end {enumerate}
 \end {enumerate}
 

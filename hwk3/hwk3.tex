@@ -18,6 +18,7 @@
 \usepackage{latexsym} 
 \usepackage{enumerate} 
 \usepackage{multirow}
+\usepackage{forest}
 \setlength{\parskip}{1pc} 
 \setlength{\parindent}{0pt} 
 \setlength{\topmargin}{-3pc} 
@@ -34,6 +35,15 @@
 %        Collaborators: #2
 	}
 } 
+
+\forestset{
+	nice empty nodes/.style={
+	for tree={calign=fixed edge angles},
+  delay={where content={}{shape=coordinate, for parent={for children={anchor=north}}}{circle, draw}}
+},
+  zero/.style={edge label={node[midway, left] {0}}},
+  one/.style={edge label={node[midway, right] {1}}},
+}
 
 \lstset{language=Python,
 }
@@ -113,6 +123,13 @@ Date: 4/19/2017\\ --------------------------------------------------------------
 \item Greedy Algorithm
 	\begin {enumerate}[(a)]
 		\item
+			\begin{forest}
+				[42, nice empty nodes,
+					[17 , zero,
+						[B(8), zero]
+						[A(9), one]]
+					[ , one]]
+			\end{forest}
 		\item
 			10000110111
 		\item
