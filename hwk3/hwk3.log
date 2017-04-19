@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.4.18)  19 APR 2017 17:08
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.4.18)  19 APR 2017 17:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -257,30 +257,36 @@ Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!]
+File: imgs/huff-tree.eps Graphic file (type eps)
+ <imgs/huff-tree.eps>
+Overfull \hbox (1929.28337pt too wide) in paragraph at lines 128--130
+[][] 
+ []
 
-! LaTeX Error: Cannot determine size of graphic in imgs/huff-tree.jpg (no Bound
-ingBox).
+[2
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!]
+Overfull \vbox (2445.135pt too high) has occurred while \output is active []
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.128 ...ncludegraphics[scale=0.75]{huff-tree.jpg}
-                                                  
-? 
-File: imgs/huff-tree.jpg Graphic file (type eps)
-<imgs/huff-tree.jpg> [2
+
+[3
 Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!
+Non-PDF special ignored!] [4
 Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!
@@ -290,21 +296,21 @@ Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!] (./hwk3.aux) ) 
 Here is how much of TeX's memory you used:
- 2128 strings out of 493304
- 28468 string characters out of 6139871
+ 2127 strings out of 493304
+ 28455 string characters out of 6139871
  91174 words of memory out of 5000000
- 5546 multiletter control sequences out of 15000+600000
+ 5545 multiletter control sequences out of 15000+600000
  8603 words of font info for 35 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 38i,7n,24p,1644b,311s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,7n,24p,230b,302s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmsy10.pfb>
-Output written on hwk3.pdf (2 pages, 38336 bytes).
+Output written on hwk3.pdf (4 pages, 38706 bytes).
 PDF statistics:
- 23 PDF objects out of 1000 (max. 8388607)
- 15 compressed objects within 1 object stream
+ 29 PDF objects out of 1000 (max. 8388607)
+ 19 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
