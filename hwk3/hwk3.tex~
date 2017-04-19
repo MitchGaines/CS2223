@@ -125,7 +125,7 @@ Date: 4/19/2017\\ --------------------------------------------------------------
 \item Greedy Algorithm
 	\begin {enumerate}[(a)]
 		\item
-				\includegraphics{huff-tree.jpg}
+			\includegraphics[]{huff-tree}
 		\item
 			10000110111
 		\item
