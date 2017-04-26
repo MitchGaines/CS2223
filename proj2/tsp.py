@@ -1,7 +1,7 @@
 
 cc2 = [[0, 2, 9, float("inf")], [1, 0, 6, 4], [float("inf"), 7, 0, 8], [6, 3, float("inf"), 0]]
 cc3 = [[0, 14, 4, 10, 20],[14, 0, 7, 8, 7],[4, 5, 0, 7, 16],[11, 7, 9, 0, 2],[18, 7, 17, 4, 0]]
-#matrix = [[0, 2, 9, -100], [1, 0, 6, 4], [-100, 7, 0, 8], [6, 3, -100, 0]]
+parents = []
 
 def rmel(ls, index):
     return ls[:index] + ls[index+1:]
@@ -12,15 +12,18 @@ def subtsp(target, comp, matrix):
     elif len(comp) != 0:
         temp = float("inf")
         for i in range(0, len(comp)-1):
-            temp = min(temp, matrix[comp[i]][target] + subtsp(comp[i], rmel(comp, i), matrix), matrix[comp[i+1]][target] + subtsp(comp[i+1], rmel(comp, i+1), matrix))
-            
+            temp = min(temp,
+                    matrix[comp[i]][target] + subtsp(comp[i], rmel(comp, i), matrix),
+                    matrix[comp[i+1]][target] + subtsp(comp[i+1], rmel(comp, i+1), matrix))
     return temp 
 
 def tsp(matrix):
     c_vals = []
     for i in range(1, len(matrix)):
         c_vals.append(i)
+    parents.append(0)
+    print("Weight: " + str(subtsp(0, c_vals, matrix)))
+    parents.append(0)
+    print("Path: " + str([x+1 for x in parents]))
     
-    print(subtsp(0, c_vals, matrix))
-
 tsp(cc2)

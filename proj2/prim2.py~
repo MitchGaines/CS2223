@@ -42,7 +42,7 @@ def prim(edges):
     mod_edges = edges
     active_list_new = active_list
 
-    while (len(curr_nodes) < len(all_nodes)):
+    while (len(curr_nodes) < len(all_nodes)-1):
        # print("Edges: " + str(edges))
        # print("Active List: " + str(active_list)) 
         #search edges for selected nodes and add to active list

@@ -76,14 +76,8 @@ def prim(edges):
         active_list_new = rm_row(active_list, curr_min_index) 
         edges = mod_edges
         active_list = active_list_new
-        print("CURRENT EDGES: " + str(edges))
-        print("CURRENT MIN: " + str(curr_min))
-        print("CURRENT NODES: " + str(curr_nodes))
-        print("ACTIVE LIST: " + str(active_list))
-        print("CURRENT MST: " + str(mst))
-        print("\n\n")
     
-    print("****MST: " + str(mst))
+    print("MST: " + str(mst))
 
 prim(edges)
 
