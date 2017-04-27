@@ -20,9 +20,12 @@ def pathfinder(weight, start, cities, matrix):
     print("tbvisit: " + str(tbvisited))
     print("start_path: " + str(start_path))
 '''
+
+#removes an element of a list with given index
 def rmel(ls, index):
     return ls[:index] + ls[index+1:]
 
+#solves subproblems of tsp
 def subtsp(target, comp, matrix):
     if len(comp) == 1:
         #if len(start_path) < 3:

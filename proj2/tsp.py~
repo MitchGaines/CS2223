@@ -34,8 +34,8 @@ def subtsp(target, comp, matrix):
             temp = min(temp,
                     matrix[comp[i]][target] + subtsp(comp[i], rmel(comp, i), matrix),
                     matrix[comp[i+1]][target] + subtsp(comp[i+1], rmel(comp, i+1), matrix))
-            if target not in start_path: #DOES NOT WORK FOR CC3
-                start_path.append(target)
+            #if target not in start_path: #DOES NOT WORK FOR CC3
+             #   start_path.append(target)
     return temp 
 
 def tsp(matrix):
