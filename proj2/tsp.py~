@@ -57,7 +57,7 @@ def subtsp(target, comp, matrix):
 
 def tsp(matrix):
     cities = []
-    start_node = 0 #LET USER INPUT START NODE AND ADD ERROR CHECKING FOR CC1 AND CC2 
+    start_node = 3 #LET USER INPUT START NODE AND ADD ERROR CHECKING FOR CC1 AND CC2 
     
     # Adds all nodes except for the start node to cities
     for i in range(0, len(matrix)):
@@ -72,4 +72,4 @@ def tsp(matrix):
 
 
 
-tsp(cc3)
+tsp(cc2)
